@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Kaze web</title>
+    <meta
+      name="description"
+      content="WEB制作を中心に活動している、星風花のポートフォリオサイトです。"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <!-- ogp -->
+    <meta property="og:site_name" content="kaze web" />
+    <meta property="og:url" content="https://kaze-web.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Kaze web" />
+    <meta
+      property="og:description"
+      content="WEB制作を中心に活動している、星風花のポートフォリオサイトです。"
+    />
+    <meta property="og:image" content="URL" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image:src" content="URL" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body class="js_body">
+    <div class="opening"></div>
+    <a href="index.html#contact" class="m_fix-cta-btn"
+      ><div class="m_fix-cta-btn_icon-wrap">
+        <img
+          src="img/mail.svg"
+          alt=""
+          class="m_fix-cta-btn_icon m_fix-cta-btn_icon__default"
+          width="24"
+          height="24"
+        />
+        <img
+          src="img/mail-send.svg"
+          alt=""
+          class="m_fix-cta-btn_icon m_fix-cta-btn_icon__hover"
+          width="24"
+          height="24"
+        />
+      </div>
+
+      <span class="m_fix-cta-btn_text">Contact</span></a
+    >
+    <header class="l_header">
+      <div class="l_header-inner">
+        <h1 class="l_header-logo">
+          <a href="index.html" class="l_header-logo_link"
+            ><img src="img/logo.svg" alt="ロゴ" class="l_header-logo_img"
+          /></a>
+        </h1>
+        <nav class="l_header-nav js_nav">
+          <ul class="l_header-nav_list">
+            <li class="l_header-nav_item">
+              <a href="index.html#promise" class="l_header-nav_link">
+                <div class="l_header-nav_link-content">
+                  <div class="l_header-nav_img-wrap">
+                    <img
+                      src="img/nav_promise.svg"
+                      class="l_header-nav_img"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                  </div>
+                  <!-- /.l_header-nav_img-wrap -->
+                  <div class="l_header-nav_text">
+                    <p class="l_header-nav_text-main">お約束</p>
+                    <span class="l_header-nav_text-sub">Promise</span>
+                  </div>
+                  <!-- /.l_header-nav_text -->
+                </div>
+                <!-- /.l_header-nav_link-content -->
+                <span class="l_header-nav_arrow"></span>
+                <!-- /.l_header-nav_arrow -->
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#about" class="l_header-nav_link">
+                <div class="l_header-nav_link-content">
+                  <div class="l_header-nav_img-wrap">
+                    <img
+                      src="img/nav_about.svg"
+                      class="l_header-nav_img"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                  </div>
+                  <!-- /.l_header-nav_img-wrap -->
+                  <div class="l_header-nav_text">
+                    <p class="l_header-nav_text-main">制作者について</p>
+                    <span class="l_header-nav_text-sub">About</span>
+                  </div>
+                  <!-- /.l_header-nav_text -->
+                </div>
+                <!-- /.l_header-nav_link-content -->
+                <span class="l_header-nav_arrow"></span>
+                <!-- /.l_header-nav_arrow -->
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#works" class="l_header-nav_link">
+                <div class="l_header-nav_link-content">
+                  <div class="l_header-nav_img-wrap">
+                    <img
+                      src="img/nav_works.svg"
+                      class="l_header-nav_img"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                  </div>
+                  <!-- /.l_header-nav_img-wrap -->
+                  <div class="l_header-nav_text">
+                    <p class="l_header-nav_text-main">制作実績</p>
+                    <span class="l_header-nav_text-sub">Works</span>
+                  </div>
+                  <!-- /.l_header-nav_text -->
+                </div>
+                <!-- /.l_header-nav_link-content -->
+                <span class="l_header-nav_arrow"></span>
+                <!-- /.l_header-nav_arrow -->
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#servise" class="l_header-nav_link">
+                <div class="l_header-nav_link-content">
+                  <div class="l_header-nav_img-wrap">
+                    <img
+                      src="img/nav_service.svg"
+                      class="l_header-nav_img"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                  </div>
+                  <!-- /.l_header-nav_img-wrap -->
+                  <div class="l_header-nav_text">
+                    <p class="l_header-nav_text-main">お手伝いできること</p>
+                    <span class="l_header-nav_text-sub">Service</span>
+                  </div>
+                  <!-- /.l_header-nav_text -->
+                </div>
+                <!-- /.l_header-nav_link-content -->
+                <span class="l_header-nav_arrow"></span>
+                <!-- /.l_header-nav_arrow -->
+              </a>
+            </li>
+            <li class="l_header-nav_item">
+              <a href="index.html#skill" class="l_header-nav_link">
+                <div class="l_header-nav_link-content">
+                  <div class="l_header-nav_img-wrap">
+                    <img
+                      src="img/nav_skill.svg"
+                      class="l_header-nav_img"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                  </div>
+                  <!-- /.l_header-nav_img-wrap -->
+                  <div class="l_header-nav_text">
+                    <p class="l_header-nav_text-main">スキル</p>
+                    <span class="l_header-nav_text-sub">Skills</span>
+                  </div>
+                  <!-- /.l_header-nav_text -->
+                </div>
+                <!-- /.l_header-nav_link-content -->
+                <span class="l_header-nav_arrow"></span>
+                <!-- /.l_header-nav_arrow -->
+              </a>
+            </li>
+          </ul>
+          <div class="m_btn-wrap">
+            <a href="index.html#contact" class="m_btn m_btn__main"
+              >お問い合わせ
+              <div class="m_btn_img-wrap">
+                <img
+                  src="img/mail-send.svg"
+                  alt=""
+                  class="m_btn_img"
+                  width="24"
+                  height="24"
+                /></div
+            ></a>
+          </div>
+        </nav>
+        <button class="m_hamburger js_hamburger">
+          <span class="m_hamburger-icon">
+            <span class="m_hamburger-bar"></span>
+            <span class="m_hamburger-bar"></span>
+            <span class="m_hamburger-bar"></span
+          ></span>
+          <span class="m_hamburger_text">Menu</span>
+        </button>
+      </div>
+      <!-- /.l_header-inner -->
+      <div class="m_header-cover js_cover"></div>
+    </header>
+    <div class="m_contents-cover js_cover"></div>
+    <main>
+      <div class="l_container">
+        <div class="l_contents">
+          <div class="page_top-heading">
+            <h2 class="page_heading-lv02_main">制作実績</h2>
+            <span class="page_heading-lv02_sub">Works</span>
+          </div>
+          <!-- /.page_top-heading -->
+          <div class="l_body">
+            <!-- kaze -->
+            <div class="detail_swiper-container">
+              <div class="detail_swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      src="img/pf.png"
+                      alt="サイトイメージ"
+                      width="1999"
+                      height="1499"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/pf02.png"
+                      alt="サイトイメージ"
+                      width="2249"
+                      height="1499"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      src="img/pf03.png"
+                      alt="サイトイメージ"
+                      width="2243"
+                      height="1495"
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- 必要なら以下追加 -->
+              <div class="swiper-pagination"></div>
+              <div class="detail_swiper-button">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+              <!-- /.detail_swiper-button -->
+            </div>
+
+            <div class="detail_text-wrapper">
+              <h3 class="detail_site-name">ポートフォリオ</h3>
+              <dl class="detail_site-list">
+                <div class="detail_site-item">
+                  <dt class="detail_site-item_title">内容</dt>
+                  <dd class="detail_site-item_desc">
+                    トップページ&times;1、下層ページ&times;1
+                  </dd>
+                </div>
+                <!-- /.detail_site-item -->
+                <div class="detail_site-item">
+                  <dt class="detail_site-item_title">制作期間</dt>
+                  <dd class="detail_site-item_desc">約3週間</dd>
+                </div>
+                <!-- /.detail_site-item -->
+                <div class="detail_site-item">
+                  <dt class="detail_site-item_title">担当</dt>
+                  <dd class="detail_site-item_desc">
+                    ロゴ作成、WEBデザイン、コーディング、WordPress化
+                  </dd>
+                </div>
+                <!-- /.detail_site-item -->
+                <div class="detail_site-item">
+                  <dt class="detail_site-item_title">サイトURL</dt>
+                  <dd class="detail_site-item_desc">
+                    <a href="https://kaze-web.com" class="detail_site-item_link"
+                      >https://kaze-web.com</a
+                    >
+                  </dd>
+                </div>
+                <!-- /.detail_site-item -->
+              </dl>
+              <p class="detail_site-desc">
+                お客様の想いを形にし、お客様の目的を達成し続けるサイトを提供することが私のミッションです。そしてそのサイトが可能な限り永く続いてほしい、という想いを込めて&#12300;100年つづくWebサイト&#12301;というキャッチコピーを採用しました。
+                ロゴとファーストビューには、遠く未来を見据える望遠鏡を主体に&#12300;100&#12301;を隠しつつ作成しています。<br />
+                また、押しやすいボタン幅やサイト内を迷わないデザインなどサイトを訪れたユーザーに配慮しながら仕上げました。
+              </p>
+            </div>
+            <!-- /.detail_text-wrapper -->
+            <div class="detail_btn-wrap">
+              <a href="index.html#works" class="m_btn m_btn__detail"
+                >実績一覧に戻る
+                <div class="m_btn_arrow"></div
+              ></a>
+            </div>
+            <!-- /.detail_btn-wrap -->
+          </div>
+          <!-- /.l_body -->
+        </div>
+        <!-- /.l_contents -->
+      </div>
+      <!-- /.l_container -->
+    </main>
+
+    <footer class="l_footer">
+      <p class="l_footer-copyright">
+        <small class="l_footer-copyright_text">&copy; 2023 Fuka Hoshi</small>
+      </p>
+    </footer>
+  </body>
+</html>
